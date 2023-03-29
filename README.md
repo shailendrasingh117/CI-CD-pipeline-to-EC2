@@ -12,11 +12,11 @@ A GitHub repository containing your code.
 
 2. Create a CodeBuild project
 
- Create a CodeBuild project in AWS that will build your code and create a Docker image.<br> Set up the buildspec.yml file to define the build steps,<br> including building and pushing the Docker image to Amazon ECR.
+ Create a CodeBuild project in AWS that will build your code and create a Docker image.<br> Set up the "buildspec.yml" file to define the build steps,<br> including building and pushing the Docker image to Amazon ECR.
 
 3. Create a CodeDeploy application and deployment group
 
- Create a CodeDeploy application and deployment group to deploy the Docker image to your EC2 instance.<br> Set up the appspec.yml file to define the deployment steps, including pulling and running the Docker image from Amazon ECR.
+ Create a CodeDeploy application and deployment group to deploy the Docker image to your EC2 instance.<br> Set up the "appspec.yml" file to define the deployment steps, including pulling and running the Docker image from Amazon ECR.
 
 4. Configure a webhook in GitHub
 
