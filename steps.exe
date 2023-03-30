@@ -1,0 +1,4 @@
+Steps to follow to Build this Project
+1. Create IAM role for ec2 and CodeDeploy
+2. Launch an ec2 Instance and will attach that ec2 role.
+3. Create a CodePipeline using github,CodeBuild and CodeDeploy.
